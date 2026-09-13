@@ -5,11 +5,13 @@ Dockapps:
 https://codeberg.org/andre_nho/wmdockapps
 https://github.com/redocnib/docker-tray
 
-Packages used in this config:
+
 
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker1.png)
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker2.png)
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker3.png)
+
+Packages used in this config:
 
 - [Kitty](https://github.com/kovidgoyal/kitty) (Terminal)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) (CaskaydiaCove Nerd Font)
