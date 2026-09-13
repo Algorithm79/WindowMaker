@@ -15,3 +15,8 @@ Packages used in this config:
 - [Starship](https://starship.rs/) (Cross-Shell Prompt)
 - [TwoStepsBack Gtk Theme](https://www.gnome-look.org/p/2167998/))
 - [Conky](https://github.com/brndnmtthws/conky) (Light-weight system monitor for X, Wayland, and other things, too)
+
+Other useful stuff used:
+blueman-applet
+connman-gtk
+feh (Image viewer and used to set wallpaper from rofi)
