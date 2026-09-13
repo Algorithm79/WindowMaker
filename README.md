@@ -3,6 +3,7 @@ Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 
 Dockapps:
 https://codeberg.org/andre_nho/wmdockapps
+https://github.com/redocnib/docker-tray
 
 Packages used in this config:
 
