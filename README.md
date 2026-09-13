@@ -1,6 +1,9 @@
 # My Retro Themed WindowMaker Dotfiles
 Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 
+Dockapps:
+https://codeberg.org/andre_nho/wmdockapps
+
 Packages used in this config:
 
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker1.png)
