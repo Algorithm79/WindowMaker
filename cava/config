@@ -1,0 +1,22 @@
+[general]
+;bars = 8
+bar_width = 8
+bar_spacing = 1
+
+[output]
+method = ncurses
+
+[color]
+
+; NeXTSTEP Retro UI Gradient
+gradient = 1
+
+gradient_count = 8
+gradient_color_1 = '#262626' 
+gradient_color_2 = '#3a3a3a' 
+gradient_color_3 = '#575757' 
+gradient_color_4 = '#7f7f7f'
+gradient_color_5 = '#a6a6a6' 
+gradient_color_6 = '#c0c0c0' 
+gradient_color_7 = '#e5e5e5' 
+gradient_color_8 = '#ffffff' 
