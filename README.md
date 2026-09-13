@@ -1,4 +1,4 @@
-# wmaker_dotfiles
+# My Retro NextStep/CDE Themed WindowMaker Dotfiles
 Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 
 Packages used in this config:
