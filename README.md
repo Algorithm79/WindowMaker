@@ -3,9 +3,9 @@ Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 
 Packages used in this config:
 
-![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker1.png)
-![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker2.png)
-![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker3.png)
+![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker1.png)
+![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker2.png)
+![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker3.png)
 
 - [Kitty](https://github.com/kovidgoyal/kitty) (Terminal)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) (CaskaydiaCove Nerd Font)
