@@ -1,0 +1,145 @@
+(
+  WindowMaker,
+  (
+    Development,
+    (CMake, EXEC, "cmake-gui"),
+    ("CMake curses GUI (ccmake)", EXEC, "kitty -e ccmake"),
+    (GDB, EXEC, "kitty -e gdb"),
+    ("IDLE (Python IDE)", EXEC, idle),
+    (Neovim, EXEC, "kitty -e nvim"),
+    (Python, EXEC, "kitty -e python")
+  ),
+  (Editors, (Mousepad, EXEC, mousepad), (Nano, EXEC, "kitty -e nano")),
+  (Games, (Lutris, EXEC, lutris)),
+  (Graphics, ("GNU Image Manipulation Program", EXEC, "gimp-3.2")),
+  (
+    Multimedia,
+    (Audacious, EXEC, audacious),
+    (cliamp, EXEC, "kitty-e cliamp"),
+    (
+      Kdenlive,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=kdenlive --file-forwarding org.kde.kdenlive @@"
+    ),
+    ("mpv Media Player", SHEXEC, "mpv --player-operation-mode=pseudo-gui"),
+    ("OBS Studio", EXEC, obs),
+    ("Volume Control", EXEC, pavucontrol),
+    ("Volume Icon", EXEC, volumeicon)
+  ),
+  (
+    Network,
+    (FireFox, EXEC, firefox),
+    (Steam, EXEC, steam),
+    (Transmission, EXEC, "transmission-gtk")
+  ),
+  (
+    Shells,
+    (GIT, EXEC, "kitty -e git"),
+    (kitty, SHORTCUT, "Mod4+Return", EXEC, kitty),
+    ("Thunar File Manager", EXEC, thunar)
+  ),
+  (
+    System,
+    (
+      Settings,
+      (
+        GNOME,
+        ("Bluetooth Manager", EXEC, "blueman-manager"),
+        ("Connman Settings", EXEC, "connman-gtk"),
+        (
+          "LightDM GTK Greeter settings",
+          EXEC,
+          "lightdm-gtk-greeter-settings-pkexec"
+        )
+      ),
+      (
+        Xfce,
+        ("Bluetooth Adapters", EXEC, "blueman-adapters"),
+        ("Settings Manager", EXEC, "xfce4-settings-manager")
+      ),
+      (Accessibility, EXEC, "xfce4-accessibility-settings"),
+      (Appearance, EXEC, "xfce4-appearance-settings"),
+      ("Color Profiles", EXEC, "xfce4-color-settings"),
+      ("Customize Look and Feel", EXEC, lxappearance),
+      ("Default Applications", EXEC, "xfce4-mime-settings"),
+      (Display, EXEC, "xfce4-display-settings"),
+      (Keyboard, EXEC, "xfce4-keyboard-settings"),
+      ("Mouse and Touchpad", EXEC, "xfce4-mouse-settings"),
+      ("Removable Drives and Media", EXEC, "thunar-volman-settings"),
+      ("Settings Editor", EXEC, "xfce4-settings-editor"),
+      ("Thunar Preferences", EXEC, "thunar-settings"),
+      (WPrefs, EXEC, WPrefs)
+    ),
+    (GParted, EXEC, gparted),
+    (Htop, EXEC, "kitty -e htop"),
+    ("Task Manager", EXEC, "xfce4-taskmanager"),
+    (Top, EXEC, "kitty -e top")
+  ),
+  (
+    Utilities,
+    (Rofi, SHORTCUT, "Mod4+z", EXEC, "rofi -show drun"),
+    ("Run Program", SHORTCUT, "Mod4+f", EXEC, "rofi -show filebrowser"),
+    ("Rofi Windows", SHORTCUT, "Mod4+Tab", EXEC, "rofi -show window"),
+    (Galculator, EXEC, galculator),
+    (Winetricks, EXEC, "winetricks --gui"),
+    (Xarchiver, EXEC, xarchiver),
+    (Xkill, EXEC, xkill),
+    (
+      "Volume Up",
+      SHORTCUT,
+      XF86AudioRaiseVolume,
+      EXEC,
+      "controls.sh volume_up"
+    ),
+    (
+      "Volume Down",
+      SHORTCUT,
+      XF86AudioLowerVolume,
+      EXEC,
+      "controls.sh volume_down"
+    ),
+    (Mute, SHORTCUT, XF86AudioMute, EXEC, "volume.sh volume_mute")
+  ),
+  (
+    WindowMaker,
+    (Workspaces, WORKSPACE_MENU),
+    (
+      Appearance,
+      (Wallpaper, SHORTCUT, "Mod4+w", EXEC, "rofi-wallpaper.sh"),
+      (
+        Themes,
+        OPEN_MENU,
+        "-noext $HOME/GNUstep/Library/WindowMaker/Themes WITH setstyle"
+      ),
+      (
+        Styles,
+        OPEN_MENU,
+        "-noext $HOME/GNUstep/Library/WindowMaker/Styles WITH setstyle"
+      ),
+      (
+        Icons,
+        OPEN_MENU,
+        "-noext $HOME/GNUstep/Library/WindowMaker/IconSets WITH seticons"
+      ),
+      (
+        "Save Theme",
+        SHEXEC,
+        "getstyle -t $HOME/GNUstep/Library/WindowMaker/Themes/\"%a(Theme name)\""
+      ),
+      (
+        "Save IconSet",
+        SHEXEC,
+        "geticonset -t $HOME/GNUstep/Library/WindowMaker/IconSets/\"%a(IconSet name)\""
+      )
+    ),
+    (Run..., EXEC, "%a(Run,Type command to run:)"),
+    ("Save session", SAVE_SESSION),
+    ("Clear session", CLEAR_SESSION),
+    (Preferences, EXEC, WPrefs),
+    (Reboot, EXEC, "loginctl reboot"),
+    (Suspend, EXEC, "loginctl suspend"),
+    (Restart, RESTART),
+    (Shutdown, EXEC, "loginctl poweroff"),
+    (Exit, EXIT)
+  )
+)

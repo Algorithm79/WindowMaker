@@ -1,0 +1,165 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = groupLeader.WPrefs;
+        DropCommand = "WPrefs %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "WPrefs %s";
+        Command = WPrefs;
+      },
+      {
+        Forced = No;
+        Name = wmdclock.WMDockApp;
+        DropCommand = "wmdclock -H 24 -T led_blue %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "wmdclock -H 24 -T led_blue %s";
+        Command = "wmdclock -H 24 -T led_blue";
+      },
+      {
+        Forced = No;
+        Name = wmdcpumem.WMDockApp;
+        DropCommand = "wmdcpumem -T led_blue %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmdcpumem -T led_blue %s";
+        Command = "wmdcpumem -T led_blue";
+      },
+      {
+        Forced = No;
+        Name = wmdvolume.WMDockApp;
+        DropCommand = "wmdvolume -T led_blue -V /,/home/magnus/Filer %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "wmdvolume -T led_blue -V /,/home/magnus/Filer %s";
+        Command = "wmdvolume -T led_blue -V /,/home/magnus/Filer";
+      },
+      {
+        Forced = No;
+        Name = docker.Docker;
+        DropCommand = "docker-tray -vertical -wmaker %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "docker-tray -vertical -wmaker %s";
+        Command = "docker-tray -vertical -wmaker";
+      }
+    );
+    Lowered = Yes;
+    Position = "0,415";
+    Applications1440 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = groupLeader.WPrefs;
+        DropCommand = "WPrefs %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "WPrefs %s";
+        Command = WPrefs;
+      },
+      {
+        Forced = No;
+        Name = wmdclock.WMDockApp;
+        DropCommand = "wmdclock -H 24 -T led_blue %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "wmdclock -H 24 -T led_blue %s";
+        Command = "wmdclock -H 24 -T led_blue";
+      },
+      {
+        Forced = No;
+        Name = wmdcpumem.WMDockApp;
+        DropCommand = "wmdcpumem -T led_blue %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmdcpumem -T led_blue %s";
+        Command = "wmdcpumem -T led_blue";
+      },
+      {
+        Forced = No;
+        Name = wmdvolume.WMDockApp;
+        DropCommand = "wmdvolume -T led_blue -V /,/home/magnus/Filer %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "wmdvolume -T led_blue -V /,/home/magnus/Filer %s";
+        Command = "wmdvolume -T led_blue -V /,/home/magnus/Filer";
+      },
+      {
+        Forced = No;
+        Name = docker.Docker;
+        DropCommand = "docker-tray -vertical -wmaker %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "docker-tray -vertical -wmaker %s";
+        Command = "docker-tray -vertical -wmaker";
+      }
+    );
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Lock = No;
+    Position = "0,0";
+    Command = "-";
+  };
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        Applications = ();
+        AutoCollapse = No;
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 1";
+    },
+    {
+      Name = "Workspace 2";
+    }
+  );
+}

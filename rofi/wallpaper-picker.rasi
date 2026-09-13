@@ -1,0 +1,115 @@
+configuration {
+  show-icons: true;
+  drun-display-format: "{name}";
+}
+
+* {
+  font: "CaskaydiaCove Nerd Font 12";
+
+  cde-bg:                      #AAAAAA; 
+  cde-fg:                      #000000; 
+  cde-input-bg:                #FFFFFF; 
+  
+  cde-high-light:              #FFFFFF; 
+  cde-low-shadow:              #555555; 
+
+  selected-background:         #000000; 
+  selected-foreground:         #FFFFFF;
+}
+
+window {
+  background-color: @cde-low-shadow;
+  transparency: "real";
+  height: 43%;  /* Ändrad till din originalhöjd */
+  width: 30%;   /* Ändrad till din originalbredd */
+  border-radius: 0px; 
+  border: 8px;
+  border-color: @cde-low-shadow;
+  children: [ mainbox ];
+}
+
+mainbox {
+  background-color: @cde-high-light;
+  border: 3px;
+  border-color: @cde-high-light;
+  children: [ cde-frame ];
+}
+
+cde-frame {
+  background-color: @cde-bg;
+  orientation: vertical;
+  border: 4px;
+  border-color: @cde-bg;
+  children: [ innerbox ];
+}
+
+innerbox {
+  background-color: transparent;
+  orientation: vertical;
+  padding: 20px;
+  children: [ inputbar, listview ];
+}
+
+inputbar {
+  background-color: @cde-input-bg;
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+  border: 2px;
+  border-color: @cde-low-shadow;
+  children: [ prompt, entry ];
+}
+
+prompt {
+  background-color: transparent;
+  text-color: @cde-fg;
+}
+
+entry {
+  background-color: transparent;
+  text-color: @cde-fg;
+  placeholder: "...";
+  placeholder-color: #787c99;
+}
+
+listview {
+  background-color: transparent;
+  columns: 2;       
+  lines: 2;         
+  spacing: 10px;    
+  cycle: true;
+  dynamic: true;
+  layout: vertical;
+}
+
+element {
+  background-color: transparent;
+  text-color: @cde-fg;
+  orientation: vertical; 
+  padding: 10px;
+  border-radius: 0px;
+}
+
+element selected {
+  background-color: @selected-background;
+  text-color: @selected-foreground;
+  
+  border: 2px;
+  border-top-color: @cde-low-shadow;
+  border-left-color: @cde-low-shadow;
+  border-right-color: @cde-high-light;
+  border-bottom-color: @cde-high-light;
+}
+
+element-icon {
+  background-color: transparent;
+  size: 80px;       
+  horizontal-align: 0.5;
+  cursor: inherit;
+}
+
+element-text {
+  background-color: transparent;
+  text-color: inherit;
+  horizontal-align: 0.5;
+  vertical-align: 0.5;
+}

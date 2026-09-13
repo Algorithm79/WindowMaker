@@ -1,0 +1,129 @@
+configuration {
+  display-drun: " ";
+  display-window: " :";
+  display-filebrowser: " ";
+
+  show-icons: true;
+  drun-display-format: "{icon} {name}";
+}
+
+* {
+  font: "CaskaydiaCove Nerd Font 12";
+  icon-font: "CaskaydiaCove Nerd Font Medium 18";
+
+  cde-bg:                      #AAAAAA; 
+  cde-fg:                      #000000; 
+  cde-input-bg:                #FFFFFF;
+  
+  cde-high-light:              #FFFFFF; 
+  cde-low-shadow:              #555555; 
+
+  selected-background:         #000000; 
+  selected-foreground:         #FFFFFF;
+}
+
+window {
+  background-color: @cde-low-shadow;
+  transparency: "real";
+  height: 43%;
+  width: 30%;
+  border-radius: 0px; 
+  border: 4px;
+  border-color: @cde-low-shadow; 
+  children: [ mainbox ];
+}
+
+mainbox {
+  background-color: @cde-high-light;
+  border: 3px;
+  border-color: @cde-high-light;
+  children: [ cde-frame ];
+}
+
+cde-frame {
+  background-color: @cde-bg;
+  orientation: vertical;
+  border: 4px;
+  border-color: @cde-bg;
+  
+  children: [ innerbox ];
+}
+
+innerbox {
+  background-color: transparent;
+  orientation: vertical;
+  padding: 20px;
+  
+  children: [ inputbar, listview ];
+}
+
+inputbar {
+  background-color: @cde-input-bg;
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+  
+  border: 2px;
+  border-color: @cde-low-shadow;
+  
+  children: [ prompt, entry ];
+}
+
+prompt {
+  background-color: transparent;
+  text-color: @cde-fg; 
+  padding: 0px 10px 0px 0px;
+}
+
+entry {
+  background-color: transparent;
+  text-color: @cde-fg;
+  placeholder: "Search...";
+  placeholder-color: #9095aa;
+}
+
+listview {
+  background-color: transparent;
+  padding: 0px 5px 0px 5px;
+  spacing: 0.3em;
+  columns: 2;
+  scrollbar: false;
+}
+
+element {
+  background-color: transparent;
+  padding: 6px 6px;
+  border-radius: 0px;
+}
+
+element.normal.normal {
+  background-color: transparent;
+  text-color: @cde-fg;
+}
+
+element.selected.normal {
+  background-color: @selected-background;
+  text-color: @selected-foreground; 
+  
+  border: 1px;
+  border-color: @cde-high-light;
+}
+
+element.alternate.normal {
+  background-color: transparent;
+  text-color: @cde-fg;
+}
+
+element-icon {
+  size: 32px;
+  border: 0px;
+}
+
+element-text {
+  expand: true;
+  vertical-align: 0.5;
+  text-color: inherit; 
+}
+
+element-text, element-icon {
+  background-color: inherit;
+}

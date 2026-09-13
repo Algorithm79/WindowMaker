@@ -1,0 +1,258 @@
+{
+  HOME = home;
+  .txt = {
+    editor = "xedit %s";
+    icon = "file-dot-txt";
+    viewer = "xedit %s";
+  };
+  MAGICFILE = MagicFiles;
+  .tgz = {
+    icon = "file-dot-gz";
+  };
+  netscape = {
+    exec = "netscape %s";
+    icon = netscape;
+    extn = (.html, .shtml, .phtml);
+  };
+  WSIZE = 520;
+  EXTN = (
+    .bmp,
+    .bz2,
+    .c,
+    .cgi,
+    .class,
+    .core,
+    .csh,
+    .dat,
+    .gif,
+    .gz,
+    .h,
+    .java,
+    .jpg,
+    .mp3,
+    .o,
+    .phtml,
+    .pl,
+    .png,
+    .rpm,
+    .sh,
+    .shtml,
+    .tgz,
+    .tif,
+    .txt,
+    .xbm,
+    .xcf,
+    .xpm,
+    .zip,
+    .html
+  );
+  .pl = {
+    editor = "xemacs %s";
+    icon = "file-dot-pl";
+    viewer = "xemacs %s";
+  };
+  ColumnWidth = 169;
+  .cgi = {
+    editor = "xemacs %s";
+    icon = "file-executable";
+    viewer = "xedit %s";
+  };
+  .xbm = {
+    editor = "gimp %s";
+    icon = "file-dot-xbm";
+    viewer = "xv %s";
+  };
+  SortOrder = 0;
+  PROCESS = {
+    exec = "xterm -exec top";
+  };
+  .htm = {
+    editor = "xemacs %s";
+    icon = "file-dot-html";
+    viewer = "netscape %s";
+  };
+  .zip = {
+    icon = "file-dot-zip";
+  };
+  DIRECTORY = folder;
+  xedit = {
+    exec = "xedit %s";
+    icon = "file-dot-txt";
+    extn = (.txt, .dat);
+  };
+  ChangeLog = {
+    editor = "xemacs %s";
+    icon = "file-dot-txt";
+    viewer = "xemacs %s";
+  };
+  CONSOLE = {
+    exec = xterm;
+  };
+  .png = {
+    icon = "file-dot-png";
+  };
+  DisplayDotFiles = 0;
+  .tif = {
+    editor = "gimp %s";
+    icon = "file-dot-tif";
+    viewer = "xv %s";
+  };
+  ROOT = {
+    icon = mycomputer;
+  };
+  App = FSViewer;
+  .c = {
+    editor = "xemacs %s";
+    icon = "file-dot-c";
+    viewer = "xemacs %s";
+  };
+  MAGICASCII = {
+    exec = "xedit %s";
+  };
+  .java = {
+    editor = "xemacs %s";
+    icon = "file-dot-java";
+    viewer = "xemacs %s";
+  };
+  .jpg = {
+    editor = "gimp %s";
+    icon = "file-dot-jpg";
+    viewer = "xv %s";
+  };
+  .html = {
+    editor = "xemacs %s";
+    icon = "file-dot-html";
+    viewer = "netscape %s";
+  };
+  .bz2 = {
+    icon = "file-dot-bz2";
+  };
+  xv = {
+    exec = "xv %s";
+    icon = xv;
+    extn = (.jpg, .gif, .bmp, .xpm, .xbm);
+  };
+  XPOS = 164;
+  .o = {
+    icon = "file-dot-o";
+  };
+  .class = {
+    icon = "file-dot-class";
+  };
+  YPOS = 164;
+  .xcf = {
+    editor = "gimp %s";
+    icon = "file-dot-xcf";
+    viewer = "gimp %s";
+  };
+  .rpm = {
+    icon = "file-dot-rpm";
+  };
+  .csh = {
+    icon = "file-dot-csh";
+  };
+  DisplaySVBG = 1;
+  .dat = {
+    editor = "xemacs %s";
+    icon = "file-dot-dat";
+    viewer = "xedit %s";
+  };
+  MAGICIMAGE = {
+    exec = "xv %s";
+  };
+  .shtml = {
+    editor = "xemacs %s";
+    icon = "file-dot-html";
+    viewer = "netscape %s";
+  };
+  mp3 = {
+    exec = "mpg123 %s";
+    icon = "file-dot-mp3";
+    extn = (.mp3);
+  };
+  MAGICPS = {
+    exec = "ghostview %s";
+  };
+  SHELF = ("/home/magnus");
+  .core = {
+    icon = "file-dot-core";
+  };
+  .phtml = {
+    editor = "xemacs %s";
+    icon = "file-dot-html";
+    viewer = "netscape %s";
+  };
+  .h = {
+    editor = "xemacs %s";
+    icon = "file-dot-h";
+    viewer = "xemacs %s";
+  };
+  EXE = (xemacs, netscape, xv, gimp, xedit);
+  DISCS = (
+    (
+      CDROM,
+      "/cdrom",
+      "/dev/hdc",
+      "mount %s",
+      "umount %s",
+      "eject %s",
+      "close %s"
+    )
+  );
+  .gif = {
+    editor = "gimp %s";
+    icon = "file-dot-gif";
+    viewer = "xv %s";
+  };
+  .xpm = {
+    editor = "gimp %s";
+    icon = "file-dot-xpm";
+    viewer = "xv %s";
+  };
+  xemacs = {
+    exec = "xemacs %s";
+    icon = xemacs;
+    extn = (
+      .html,
+      .shtml,
+      .phtml,
+      .pl,
+      .txt,
+      .java,
+      .cgi,
+      .sh,
+      .csh,
+      .dat,
+      .c,
+      .h
+    );
+  };
+  ICONDIR = "/usr/local/GNUstep/Apps/FSViewer.app";
+  .mp3 = {
+    icon = "file-dot-mp3";
+    viewer = "mpg123 %s";
+  };
+  .gz = {
+    icon = "file-dot-gz";
+  };
+  DEFAULT_IMG = "file-plain";
+  .sh = {
+    icon = "file-dot-sh";
+  };
+  DisplayMCListPixmap = 0;
+  SortDisplay = 0;
+  gimp = {
+    exec = "gimp %s";
+    icon = wilber;
+    extn = (.jpg, .gif, .bmp, .xcf, .xpm, .xbm, .png);
+  };
+  .bmp = {
+    editor = "gimp %s";
+    icon = "file-dot-bmp";
+    viewer = "xv %s";
+  };
+  HSIZE = 390;
+  .tar.gz = {
+    icon = "file-dot-gz";
+  };
+}

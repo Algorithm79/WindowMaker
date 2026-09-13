@@ -1,0 +1,99 @@
+{
+  FrameBorderColor = "#1a1b26";
+  FTitleColor = "#ffffff";
+  MenuDisabledColor = "#666666";
+  IconTitleBack = "#000000";
+  MoveToWorkspace9Key = "Shift+Mod4+9";
+  HotCornerEdge = 2;
+  PixmapPath = (
+    "/home/magnus/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/magnus/GNUstep/Library/WindowMaker/Backgrounds",
+    "/home/magnus/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/share/pixmaps"
+  );
+  ToggleKbdModeKey = None;
+  ClipTitleFont = "Verdana:bold:pixelsize=10";
+  MoveToWorkspace7Key = "Shift+Mod4+7";
+  IconTitleFont = "Arial,Luxi Sans:pixelsize=9";
+  WindowPlacement = center;
+  LargeDisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=24";
+  DisableClip = YES;
+  HotCornerDelay = 250;
+  FocusWindowLeftKey = None;
+  CenterKey = None;
+  MoveDisplay = none;
+  IconTitleColor = "#ffffff";
+  MenuTextColor = "#000000";
+  MoveToWorkspace2Key = "Shift+Mod4+2";
+  IconBack = (dgradient, "#aaaaaa", "#848484");
+  MenuTitleColor = "#ffffff";
+  AntialiasedText = YES;
+  MarkUnsetKey = None;
+  MenuTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=11";
+  MoveToWorkspace5Key = "Shift+Mod4+5";
+  HotCorners = NO;
+  WindowTitleExtendSpace = "-1";
+  MarkSwapKey = None;
+  MoveTo6to12Head = None;
+  SmoothWorkspaceBack = YES;
+  DbClickFullScreen = NO;
+  MenuTextFont = "Trebuchet MS,Luxi Sans:pixelsize=11";
+  WorkspaceBack = (spixmap, cfern.jpg, gray20);
+  HighlightTextColor = "#000000";
+  AdvanceToNewWorkspace = YES;
+  EnforceIconMargin = YES;
+  MarkBringKey = None;
+  ClipTitleColor = "#000000";
+  MoveTo12to6Head = None;
+  HotCornerActions = (None, None, None, None);
+  CloseKey = "Mod4+Q";
+  FrameFocusedBorderColor = "#1a1b26";
+  HighlightColor = "#ffffff";
+  WindowTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
+  MoveToWorkspace8Key = "Shift+Mod4+8";
+  FocusWindowUpKey = None;
+  Workspace8Key = "Mod4+8";
+  Workspace9Key = "Mod4+9";
+  MoveToWorkspace3Key = "Shift+Mod4+3";
+  Workspace10Key = "Mod4+0";
+  CClipTitleColor = "#333333";
+  ResizebarBack = (solid, "#848484");
+  MoveToWorkspace6Key = "Shift+Mod4+6";
+  IconPath = (
+    "/home/magnus/GNUstep/Library/Icons",
+    "/home/magnus/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/magnus/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/pixmaps",
+    "/home/magnus/.icons"
+  );
+  Workspace4Key = "Mod4+3";
+  MoveToWorkspace10Key = "Shift+Mod4+0";
+  FocusWindowDownKey = None;
+  DisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=11";
+  MouseWheelFocus = NO;
+  KbdModeLock = NO;
+  Workspace6Key = "Mod4+6";
+  MarkSetKey = None;
+  MenuTextExtendSpace = "-1";
+  Workspace7Key = "Mod4+7";
+  UTitleColor = "#000000";
+  UTitleBack = (solid, "#848484");
+  HotplugMonitor = NO;
+  PTitleColor = "#ffffff";
+  Workspace1Key = "Mod4+1";
+  CloseRootMenuByLeftOrRightMouseClick = NO;
+  ResizeDisplay = none;
+  Workspace2Key = "Mod4+2";
+  MoveToWorkspace1Key = "Shift+Mod4+1";
+  MarkJumpKey = None;
+  MenuTitleExtendSpace = "-1";
+  MoveToWorkspace4Key = "Shift+Mod4+4";
+  FrameSelectedBorderColor = "#cc575d";
+  FocusWindowRightKey = None;
+}

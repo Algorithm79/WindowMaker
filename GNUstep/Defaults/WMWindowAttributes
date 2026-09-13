@@ -1,0 +1,54 @@
+{
+  caffeine.Caffeine = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+  };
+  "blueman-manager.Blueman-manager" = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+  };
+  firefox.Firefox = {
+    Icon = firefox.Firefox.xpm;
+  };
+  "xfce4-appfinder.Xfce4-appfinder" = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+  };
+  default.default = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+  };
+  "connman-gtk.Connman-gtk" = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+  };
+  "blueman-applet.Blueman-applet" = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+    NoResizebar = Yes;
+  };
+  lxappearance.Lxappearance = {
+    Icon = lxappearance.Lxappearance.xpm;
+  };
+  "polkit-gnome-authentication-agent-1.Polkit-gnome-authentication-agent-1" = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+    NoResizebar = Yes;
+    KeepOnTop = Yes;
+  };
+  thunar.Thunar = {
+    Icon = thunar.Thunar.xpm;
+  };
+  "xfce4-notifyd.Xfce4-notifyd" = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+  };
+  volumeicon.Volumeicon = {
+    NoAppIcon = Yes;
+    AlwaysUserIcon = No;
+    NoResizebar = Yes;
+  };
+  groupLeader.WPrefs = {
+    Icon = groupLeader.WPrefs.xpm;
+  };
+}

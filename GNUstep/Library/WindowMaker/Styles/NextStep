@@ -1,0 +1,39 @@
+{
+  LargeDisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=24";
+  HighlightColor = "#ffffff";
+  MenuTextExtendSpace = "-1";
+  FTitleColor = "#ffffff";
+  MenuTitleExtendSpace = "-1";
+  MenuTextFont = "Trebuchet MS,Luxi Sans:pixelsize=11";
+  WorkspaceBack = (
+    spixmap,
+    "cfern.jpg",
+    gray20
+  );
+  UTitleBack = (solid, "#848484");
+  NormalCursor = (builtin, left_ptr);
+  IconTitleFont = "Arial,Luxi Sans:pixelsize=9";
+  PTitleBack = (solid, gray40);
+  WindowTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
+  UTitleColor = "#000000";
+  MenuDisabledColor = "#666666";
+  ClipTitleFont = "Verdana:bold:pixelsize=10";
+  MenuStyle = normal;
+  MenuTextBack = (solid, "rgb:aa/aa/aa");
+  PTitleColor = "#ffffff";
+  IconBack = (dgradient, "rgb:a6/a6/b6", "rgb:51/55/61");
+  MenuTitleBack = (solid, black);
+  DisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=11";
+  FTitleBack = (solid, black);
+  WindowTitleExtendSpace = "-1";
+  TitleJustify = center;
+  CClipTitleColor = gray20;
+  ResizebarBack = (solid, "#848484");
+  MenuTextColor = "#000000";
+  ClipTitleColor = black;
+  IconTitleBack = black;
+  HighlightTextColor = "#000000";
+  IconTitleColor = white;
+  MenuTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=11";
+  MenuTitleColor = "#ffffff";
+}
