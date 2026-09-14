@@ -1,5 +1,4 @@
 # My Retro Themed WindowMaker Dotfiles
-Configurationsfiles for WindowMaker
 
 Dockapps:
 https://codeberg.org/andre_nho/wmdockapps
