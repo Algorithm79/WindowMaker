@@ -6,7 +6,7 @@ https://github.com/redocnib/docker-tray
 
 
 
-![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker1.png)
+![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker.png)
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker2.png)
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/WindowMaker/master/wmaker3.png)
 
