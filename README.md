@@ -1,8 +1,6 @@
 # My Retro Themed WindowMaker Dotfiles
 
-Dockapps:
-https://codeberg.org/andre_nho/wmdockapps
-https://github.com/redocnib/docker-tray
+
 
 
 
@@ -20,6 +18,10 @@ Packages used in this config:
 - [Starship](https://starship.rs/) (Cross-Shell Prompt)
 - [TwoStepsBack Gtk Theme](https://www.gnome-look.org/p/2167998/))
 - [Conky](https://github.com/brndnmtthws/conky) (Light-weight system monitor for X, Wayland, and other things, too)
+
+Dockapps:
+https://codeberg.org/andre_nho/wmdockapps
+https://github.com/redocnib/docker-tray
 
 Other useful stuff used:
 blueman-applet
